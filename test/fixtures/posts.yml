@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  username: MyString
+  userphone: MyString
+  start: MyString
+  startpoint: MyString
+  goal: MyString
+  jobtype: 1
+
+two:
+  username: MyString
+  userphone: MyString
+  start: MyString
+  startpoint: MyString
+  goal: MyString
+  jobtype: 1

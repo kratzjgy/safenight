@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Username:</strong>
+  <%= @post.username %>
+</p>
+
+<p>
+  <strong>Userphone:</strong>
+  <%= @post.userphone %>
+</p>
+
+<p>
+  <strong>Start:</strong>
+  <%= @post.start %>
+</p>
+
+<p>
+  <strong>Startpoint:</strong>
+  <%= @post.startpoint %>
+</p>
+
+<p>
+  <strong>Goal:</strong>
+  <%= @post.goal %>
+</p>
+
+<p>
+  <strong>Jobtype:</strong>
+  <%= @post.jobtype %>
+</p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back', posts_path %>
